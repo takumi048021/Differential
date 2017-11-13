@@ -41,4 +41,6 @@ public class Differential_lib implements Differential_if{
 	    return (Math.abs(2*this.a-(Math.pow(this.a+this.h,2)-Math.pow(this.a,2))/h)/(2*this.a))*100;
 	}
   
+	
+	
 }
